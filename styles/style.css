@@ -188,6 +188,7 @@
 .lots_card-list {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 25px;
   padding-bottom: 30px;
@@ -232,7 +233,7 @@
 
 .card_text {
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -330,17 +331,17 @@
   line-height: normal;
 }
 
+.footer_menu-link {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 .footer_menu-link_active {
   text-decoration: none;
 }
 
 .footer_menu-list {
   list-style-type: none;
-}
-
-.footer_menu-link {
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
 .footer_social {
